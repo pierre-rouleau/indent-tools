@@ -20,10 +20,14 @@
 ;; all byte-compiler and native-compiler emitted warnings.
 ;; The content of indent-tools-indentation-of.el is incorporated here to
 ;; simplify that.
+;; This file depends on other packages that are not identified above:
+;;  helm and undo-tree.  The functions are declared and PEL deals with the
+;;  dependencies.
 
-;;; Code:
 
 ;; ---------------------------------------------------------------------------
+;;; Code:
+
 ;; indent-tools-indentation-of.el content
 ;; ======================================
 
@@ -411,7 +415,7 @@ Simple stuff, since the comments hide us the indentation levels."
 ;; [:todo 2026-11-03, by Pierre Rouleau: The code should be improved to
 ;;                    prevent providing hydra heads for functions not available.]
 (declare-function undo-tree-undo "undo-tree" (&optional arg))
-
+(declare-function helm-imenu "helm-imenu" ())
 
 (defhydra indent-tools-hydra (:color red :hint nil)
   "
