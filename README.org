@@ -1,30 +1,36 @@
 * indent-tools
 
-[[https://melpa.org/#/indent-tools][file:https://melpa.org/packages/indent-tools-badge.svg]]
+*Fork of indent-tools*:
+This fork fixes warnings but also creates a single-file package
+with the =indent-tools.el= file.  This fork is used in my  [[https://github.com/pierre-rouleau/pel?tab=readme-ov-file][PEL]]
+project.
 
 Indent,  move around  and  act  on code  based  on indentation  (yaml,
 python, jade, etc).
+
 
 Meant for indentation-based  languages, but can be used  any time with
 indented text.
 
 _Example:_
 
+It retains the code written by Vindarel, but fixes several warnings.
+
 Navigating by blocks:
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
  <img src="https://gitlab.com/emacs-stuff/indent-tools/raw/master/demo.gif" </img>
-#+END_HTML
+#+END_EXPORT
 
 _Indenting_:
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
  <img src="https://gitlab.com/emacs-stuff/indent-tools/raw/master/demo-indent.gif" </img>
-#+END_HTML
+#+END_EXPORT
 
 ** Installation
 
-Set up [[http://wikemacs.org/wiki/Package.el][MELPA]] and use [[http://wikemacs.org/wiki/Package.el][package.el]]: =M-x package-install RET indent-tools RET=.
+Use [[https://github.com/pierre-rouleau/pel?tab=readme-ov-file][PEL]] and activate it by setting *pel-use-indent-tools* user-option.
 
 ** Usage
 
@@ -187,10 +193,11 @@ See `move-text` in melpa to move regions up and down.
   more generic [[https://github.com/DamienCassou/hierarchy][hierarchy]].
 ** Change log
 
-- <2018-01-24 mer.> simplify  =Kill=: it kills the  indented block, no
+- <2018-01-24 Wed> simplify  =Kill=: it kills the  indented block, no
   more choice  to kill a  paragraph or all the  level in a  hydra, not
   fitting in this package.
-- <2017-08-03 jeu.> =L= insteal of =C-l= to recenter the screen ("recenter-top-bottom").
-- <2017-07-21 ven.> undo-tree within the hydra (press "_")
-- <2017-07-21 ven.> small  fix for ">" indent: go to  the beginning of text before action.
-- <2017-03-22 mer.> added Uncomment the paragraph
+- <2017-08-03 Thu> =L= insteal of =C-l= to recenter the screen ("recenter-top-bottom").
+- <2017-07-21 Fri> undo-tree within the hydra (press "_")
+- <2017-07-21 Fri> small  fix for ">" indent: go to  the beginning of text before action.
+- <2017-03-22 Wed> added Uncomment the paragraph
+- <2026-10-04 Wed> Fork by: Pierre Rouleau. Fixes warnings. 1-file package.
