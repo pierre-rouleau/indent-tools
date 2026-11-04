@@ -18,15 +18,15 @@ It retains the code written by Vindarel, but fixes several warnings.
 
 Navigating by blocks:
 
-#+BEGIN_EXPORT HTML
- <img src="https://gitlab.com/emacs-stuff/indent-tools/raw/master/demo.gif" </img>
-#+END_EXPORT
+#+BEGIN_HTML
+ <img src="https://github.com/pierre-rouleau/indent-tools/blob/master/demo.gif" </img>
+#+END_HTML
 
 _Indenting_:
 
-#+BEGIN_EXPORT HTML
- <img src="https://gitlab.com/emacs-stuff/indent-tools/raw/master/demo-indent.gif" </img>
-#+END_EXPORT
+#+BEGIN_HTML
+ <img src="https://github.com/pierre-rouleau/indent-tools/blob/master/demo-indent.gif" </img>
+#+END_HTML
 
 ** Installation
 
