@@ -18,15 +18,15 @@ It retains the code written by Vindarel, but fixes several warnings.
 
 Navigating by blocks:
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
  <img src="https://github.com/pierre-rouleau/indent-tools/blob/master/demo.gif" </img>
-#+END_HTML
+#+END_EXPORT
 
 _Indenting_:
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
  <img src="https://github.com/pierre-rouleau/indent-tools/blob/master/demo-indent.gif" </img>
-#+END_HTML
+#+END_EXPORT
 
 ** Installation
 
@@ -200,4 +200,4 @@ See `move-text` in melpa to move regions up and down.
 - <2017-07-21 Fri> undo-tree within the hydra (press "_")
 - <2017-07-21 Fri> small  fix for ">" indent: go to  the beginning of text before action.
 - <2017-03-22 Wed> added Uncomment the paragraph
-- <2026-10-04 Wed> Fork by: Pierre Rouleau. Fixes warnings. 1-file package.
+- <2026-11-04 Wed> Fork by: Pierre Rouleau. Fixes warnings. 1-file package.
